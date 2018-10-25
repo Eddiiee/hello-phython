@@ -1,2 +1,3 @@
-msg = ("Hello , World of Fun") 
-print("I am Edd.")
+print("Hello , World of Fun") 
+print("My name is {}. I am {} y/o." \
+.format("Eddsu",17))
