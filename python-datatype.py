@@ -9,3 +9,4 @@ data = {"name": "Eddsu" ,
 #print (data)
 print("I am {}".format(data["name"]))
 print("My First FIL grade is {}".format(data["grades"][0]))
+

@@ -3,6 +3,7 @@
 #for c in "Hello!":
  #print (c)
 
+
  #for c in "Hello"
  #print (c)
 
@@ -12,6 +13,8 @@
 
 # print ()        
  
+
+
 numbers = []
 for x in range(10):
     numbers.append(x)
