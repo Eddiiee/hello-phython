@@ -2,28 +2,33 @@ import sys
 
 
 
-x = sys.argv[1]
-x = int(sys.argv[1])
+Wind = sys.argv[1]
+Wind = int(sys.argv[1])
 
 
+if Wind >220: 
+     print ("Category", "Super Typhoon")  
+
+elif Wind == 118 or Wind <= 220:
+     print ("Category", "Typhoon")   
+
+elif Wind == 89 or Wind <= 117:
+     print ("Category", "Severe Tropical Storm")  
 
 
+elif Wind == 62 or Wind <= 88:
+    print ("Category", "Tropical Storm"     
 
-if x <= 61:
+elif Wind >= 61:
     print ("Tropical Depression")
 
 
-elif x <= 62 or x <= 88:
-    print ("Category", "Tropical Storm"
 
-elif x <= 89 or x <= 117:
-     print ("Category", "Severe Tropical Storm")    
+  
 
-elif x <= 118 or x <= 220:
-     print ("Category", "Typhoon")      
+   
 
-elif x >220: 
-     print ("Category", "Super Typhoon")       
+      
           
 
 
