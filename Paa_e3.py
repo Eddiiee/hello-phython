@@ -1,14 +1,13 @@
 
 import sys
 
-values = input("Please type a"  +  
-    "comma separated list of values: ")
-    values = message.split(",")
+values = input("Please type a"  +  "comma separated list of values: ")                                         
+values = data.split(",")
 
 
 
-x = 0
-total = 0
+
+total = 0.0
 while x < 5:
     #if x % 2 == 1:
     if x & 1:   
